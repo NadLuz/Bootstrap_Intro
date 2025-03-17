@@ -1,10 +1,10 @@
-# Exercício 8: Carousel com Bootstrap
+# Exercício 8: Carossel com Bootstrap
 
-**Objetivo:** Criar um carousel (slideshow) responsivo utilizando Bootstrap, demonstrando a implementação de um componente de apresentação de imagens com controles de navegação.
+**Objetivo:** Criar um carossel (slideshow) responsivo utilizando Bootstrap, demonstrando a implementação de um componente de apresentação de imagens com controles de navegação.
 
 ---
 ## Descrição:
-Este exercício demonstra a criação de um carousel Bootstrap, que é um slideshow para apresentação de imagens em sequência. O carousel inclui controles de navegação e transições automáticas entre os slides.
+Este exercício demonstra a criação de um carrossel Bootstrap, que é um slideshow para apresentação de imagens em sequência. O carrossel inclui controles de navegação e transições automáticas entre os slides.
 
 ---
 ## Passo 1: Configuração Inicial
@@ -13,22 +13,22 @@ Este exercício demonstra a criação de um carousel Bootstrap, que é um slides
    - Adicionar JavaScript do Bootstrap no final do body
 2. **Estrutura Base:**
    - Container principal com margem superior
-   - Área definida para o carousel
+   - Área definida para o carrossel
 
 ---
 ## Passo 2: Estrutura do Carousel
 1. **Container Principal:**
    - ID único para referência
-   - Classes `carousel slide`
-   - Atributo `data-bs-ride="carousel"`
+   - Classes `carrossel slide`
+   - Atributo `data-bs-ride="carrossel"`
 2. **Inner Container:**
-   - Classe `carousel-inner`
+   - Classe `carrossel-inner`
    - Contém todos os slides
 
 ---
 ## Passo 3: Slides
 1. **Items do Carousel:**
-   - Classe `carousel-item`
+   - Classe `carrossel-item`
    - Primeiro item com classe `active`
 2. **Imagens:**
    - Classes `d-block w-100`
@@ -38,8 +38,8 @@ Este exercício demonstra a criação de um carousel Bootstrap, que é um slides
 ---
 ## Passo 4: Controles de Navegação
 1. **Botões de Navegação:**
-   - Botão anterior com `carousel-control-prev`
-   - Botão próximo com `carousel-control-next`
+   - Botão anterior com `carrossel-control-prev`
+   - Botão próximo com `carrossel-control-next`
 2. **Ícones dos Controles:**
    - Ícones com classes específicas
    - Posicionamento automático
@@ -47,14 +47,14 @@ Este exercício demonstra a criação de um carousel Bootstrap, que é um slides
 ---
 ## Conceitos Importantes:
 1. **Classes Essenciais:**
-   - `carousel`: Container principal
-   - `carousel-inner`: Wrapper dos slides
-   - `carousel-item`: Cada slide individual
-   - `carousel-control-prev/next`: Controles de navegação
+   - `carrossel`: Container principal
+   - `carrossel-inner`: Wrapper dos slides
+   - `carrossel-item`: Cada slide individual
+   - `carrossel-control-prev/next`: Controles de navegação
 
 2. **Atributos de Dados:**
    - `data-bs-ride`: Controle de autoplay
-   - `data-bs-target`: Referência ao carousel
+   - `data-bs-target`: Referência ao carrossel
    - `data-bs-slide`: Direção da navegação
 
 3. **Estrutura de Imagens:**
@@ -64,9 +64,9 @@ Este exercício demonstra a criação de um carousel Bootstrap, que é um slides
 
 ---
 ## Explicação:
-Este exercício demonstra a implementação de um carousel Bootstrap, um componente popular para apresentação de conteúdo visual em sequência.
+Este exercício demonstra a implementação de um carrossel Bootstrap, um componente popular para apresentação de conteúdo visual em sequência.
 
-- **Funcionalidade Automática:** O carousel inicia automaticamente a apresentação dos slides.
+- **Funcionalidade Automática:** O carrossel inicia automaticamente a apresentação dos slides.
 - **Controles Intuitivos:** Oferece navegação através de botões nas laterais.
 - **Responsividade:** Adapta-se automaticamente ao tamanho da tela do dispositivo.
 - **Performance:** Utiliza o sistema de carregamento otimizado do Bootstrap.
